@@ -25,27 +25,26 @@ int main()
 };
 
 // if else statement
-/*
-int main()
-{
-    int package;
-    cout << "Enter the package amount: ";
-    cin >> package;
 
-    if (package > 10)
-    {
-        cout << "Offer accepted";
-    }
-    else if (package == 10)
-    {
-        cout << "I'll think";
-    }
-    else
-    {
-        cout << "Offer rejected";
-    }
-};
-*/
+// int main()
+// {
+//     int package;
+//     cout << "Enter the package amount: ";
+//     cin >> package;
+
+//     if (package > 10)
+//     {
+//         cout << "Offer accepted";
+//     }
+//     else if (package == 10)
+//     {
+//         cout << "I'll think";
+//     }
+//     else
+//     {
+//         cout << "Offer rejected";
+//     }
+// };
 
 // for loops
 
