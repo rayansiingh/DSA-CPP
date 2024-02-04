@@ -145,10 +145,9 @@ int main()
 //     int n = 10;
 //     if (n == 10)
 //     {
-//         int num = 20; //here allowed cause diff block
+//         // here allowed cause diff block
+//         int num = 20;
 //         cout << num;
 //     }
 //     return 0;
 // }
-
-// first value of local var is used if not found then val of global var is used
