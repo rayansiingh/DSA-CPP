@@ -22,13 +22,13 @@ int main()
 
 // int main()
 // {
-//     cout << 2 && 3;
-//     cout << 0 && 5;
-//     cout << 0 && 0;
+//     cout << (2 && 3) << endl;
+//     cout << (0 && 5) << endl;
+//     cout << (0 && 0) << endl;
 
-//     cout << 3 || 5;
-//     cout << 3 || 0;
-//     cout << 0 || 0;
+//     cout << (3 || 5) << endl;
+//     cout << (3 || 0) << endl;
+//     cout << (0 || 0) << endl;
 
 //     cout << !10;
 //     cout << !0;
