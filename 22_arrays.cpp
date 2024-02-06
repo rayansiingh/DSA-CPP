@@ -3,32 +3,32 @@
 // #include <limits.h>
 using namespace std;
 
-// int main()
-// {
-//     // not declaring size of array isn't a good practice
-//     // diff ways to input values in array
+int main()
+{
+    // not declaring size of array isn't a good practice
+    // diff ways to input values in array
 
-//     int a[5] = {11, 22, 33, 44, 55};
-//     int b[] = {11, 22}; // will automatically create an array of size 2
-//     // taking inputs from user;
-//     int c[5];
-//     for (int i = 0; i < 5; i++)
-//     {
-//         cin >> c[i];
-//     }
-//     int d[5] = {11, 22}; // on other location there'll 0
-//     int e[5] = {0};      // 0 in all 5 locations and only valid for 0
+    int a[5] = {11, 22, 33, 44, 55};
+    int b[] = {11, 22}; // will automatically create an array of size 2
+    // taking inputs from user;
+    int c[5];
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> c[i];
+    }
+    int d[5] = {11, 22}; // on other location there'll 0
+    int e[5] = {0};      // 0 in all 5 locations and only valid for 0
 
-//     // size of array
-//     int arr[5] = {11, 23, 1, 7, 5};
-//     cout << sizeof(arr) << endl; // no of elements * size of one element
+    // size of array
+    int arr[5] = {11, 23, 1, 7, 5};
+    cout << sizeof(arr) << endl; // no of elements * size of one element
 
-//     // no of elements in an array
-//     int num[5] = {1, 4, 2, 4, 3};
-//     cout << sizeof(num) / sizeof(num[0]) << endl;
+    // no of elements in an array
+    int num[5] = {1, 4, 2, 4, 3};
+    cout << sizeof(num) / sizeof(num[0]) << endl;
 
-//     return 0;
-// }
+    return 0;
+}
 
 // min and maxelement in an array
 
