@@ -30,7 +30,7 @@ int main()
     return 0;
 }
 
-// min and maxelement in an array
+// min and max element in an array
 
 // int main()
 // {
