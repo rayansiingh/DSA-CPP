@@ -1,28 +1,37 @@
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 // Armstrong number check
-int countdigit(int n)
+int countdigit(int num) // to count number of digits in the input
 {
     int count = 0;
-    while (n)
+    while (num)
     {
         count++;
-        n /= 10;
+        num /= 10;
     }
+
     return count;
 }
 
-bool Armstrong(int num, float digit)
+int pow(int rem, int digit) // to calculate power
 {
-    int n = num, ans = 0;
-    float rem;
-    while (n)
+    int val = 1;
+    for (int x = 0; x < digit; x++)
     {
-        rem = n % 10;
-        n /= 10;
-        ans = (ans + pow(rem, digit));
+        val = val * rem;
+    }
+    return val;
+}
+
+bool Armstrong(int num, int digit) // actual code to check armstrong no.
+{
+    int temp = num, ans = 0, rem;
+    while (temp)
+    {
+        rem = temp % 10;
+        temp /= 10;
+        ans = ans + pow(rem, digit);
     }
     if (ans == num)
         return 1;
@@ -36,10 +45,11 @@ int main()
     cout << "enter: ";
     cin >> num;
 
-    // count digit
-    float digit = countdigit(num);
-    // armstrong
+    int digit = countdigit(num);
+
     cout << Armstrong(num, digit);
+
+    return 0;
 }
 
 // // small letters to capital letters conversion
