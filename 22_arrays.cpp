@@ -1,11 +1,12 @@
 #include <iostream>
 #include <climits>
-// #include <limits.h>
+#include <limits.h>
 using namespace std;
 
 int main()
 {
     // not declaring size of array isn't a good practice
+    // size of array is 5 and if you're trying to access the 6th element then be ready for garbage value
     // diff ways to input values in array
 
     int a[5] = {11, 22, 33, 44, 55};
@@ -37,8 +38,8 @@ int main()
 //     int arr[5] = {2, -333, 1, 3, 8};
 
 //     // for min value
-//     // int minimum = arr[0];
-//     int minimum = INT_MAX; // // or you can use this
+//     int minimum = arr[1];
+//     // int minimum = INT_MAX; // or you can use this
 
 //     for (int i = 0; i < 5; i++)
 //     {
@@ -48,8 +49,8 @@ int main()
 //     cout << "min value: " << minimum << endl;
 
 //     // for max value
-//     int maximum = arr[0];
-//     // int maximum = INT_MIN; // // or you can use this
+//     int maximum = arr[1];
+//     // int maximum = INT_MIN; // or you can use this
 //     for (int j = 0; j < 5; j++)
 //     {
 //         if (arr[j] > maximum)
