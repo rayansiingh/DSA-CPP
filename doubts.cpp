@@ -5,7 +5,7 @@
 // when i'm running this code on my vs code it gives wrong output
 // ex - when i input 153 which is an armstrong no it return 0 instead of 1
 // but when i run the same code in an online cpp compiler with the same input i.e. 153 it return 1 why
-/*
+
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -22,16 +22,16 @@ float countdigit(int n)
     return count;
 }
 
-bool Armstrong(int num, int digit)
+bool Armstrong(int input, int exponent)
 {
-    int n = num, ans = 0, rem;
-    while (n)
+    int temp = input, ans = 0, rem;
+    while (temp)
     {
-        rem = n % 10;
-        n /= 10;
-        ans = ans + pow(rem, digit);
+        rem = temp % 10;
+        temp /= 10;
+        ans = ans + pow(rem, exponent);
     }
-    if (ans == num)
+    if (ans == input)
         return 1;
     else
         return 0;
@@ -49,4 +49,3 @@ int main()
 
     return 0;
 }
-*/
