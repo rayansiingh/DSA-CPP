@@ -5,18 +5,11 @@ using namespace std;
 
 int main()
 {
-    int array[5];
-    for (int i = 0; i < 7; i++)
+    int base = 2, power = 3, ans = 1;
+    for(int i = 0; i < 3; i++)
     {
-        cin >> array[i];
+        ans = ans * base;
     }
-
-    cout << "values" << endl;
-    for (int i = 0; i < 5; i++)
-    {
-        /* code */
-        cout << array[i] << endl;
-    }
-
+    cout << ans;
     return 0;
 }
