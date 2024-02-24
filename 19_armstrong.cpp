@@ -24,7 +24,7 @@ int pow(int rem, int digit) // to calculate power
     return val;
 }
 
-bool Armstrong(int num, int digit) // actual code to check armstrong no.
+bool Armstrong(int num, int digit) // actual code to check armstrong number
 {
     int temp = num, ans = 0, rem;
     while (temp)
