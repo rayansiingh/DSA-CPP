@@ -61,7 +61,7 @@ int main()
 //     return 0;
 // }
 
-// now greatest will go to last but loop will start from the beginnign
+// now greatest will go to last but loop will start from the beginning
 // int main()
 // {
 //     // for inserting elements
