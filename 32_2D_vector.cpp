@@ -42,7 +42,7 @@ int main()
         }
     }
 
-    // printing
+    // printing the vector
     for (int j = 0; j < cols; j++)
     {
         if (j % 2 == 0)
